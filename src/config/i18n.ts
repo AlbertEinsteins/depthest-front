@@ -9,9 +9,14 @@ import { getLocale, setLocale, importAllLocales, defaultLang } from "@/utils/i18
 /**
  * elementUI 多语言 配置
  */
-import enUS from 'element-plus/lib/locale/lang/en';
-import zhCN from 'element-plus/lib/locale/lang/zh-cn';
-import zhTW from 'element-plus/lib/locale/lang/zh-tw';
+import enUS from 'element-plus/es/locale/lang/en';
+import zhCN from 'element-plus/es/locale/lang/zh-cn';
+import zhTW from 'element-plus/es/locale/lang/zh-tw';
+
+
+// import enUS from 'element-plus/lib/locale/lang/en';
+// import zhCN from 'element-plus/lib/locale/lang/zh-cn';
+// import zhTW from 'element-plus/lib/locale/lang/zh-tw';
 export const elementPlusMessages: { [key: string]: any} = {
     'zh-CN': zhCN,
     'zh-TW': zhTW,

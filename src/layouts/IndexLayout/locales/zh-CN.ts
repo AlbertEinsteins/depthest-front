@@ -35,4 +35,13 @@ export default {
   'index-layout.menu.roles.all': '用户都有权限',
   'index-layout.menu.roles.user': 'Users有权限',
   'index-layout.menu.roles.test': 'Tests有权限',
+
+
+
+  'index-layout.menu.datasets': '数据集测试',
+  'index-layout.menu.datasets.nyu': 'NYU数据集',
+  'index-layout.menu.datasets.kitti': 'Kitti数据集',
+
+  'index-layout.menu.online': '在线测试',
+  'index-layout.menu.online.main': '主页'
 };

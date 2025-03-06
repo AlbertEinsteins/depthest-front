@@ -89,7 +89,7 @@ export default defineComponent({
 
 
         // 所有菜单路由
-        const menuData: RoutesDataItem[] = vueRoutes(IndexLayoutRoutes);  
+        const menuData: RoutesDataItem[] = vueRoutes(IndexLayoutRoutes); 
         
         // 框架所有的路由转成json并统一添加了parentPath
         const jsonPathRoutes: PathJsonRoutesDataItem = jsonPathVueRoutes(menuData)
